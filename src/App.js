@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HomePage from './homepage.component';
+import Home from './pages/home/Home';
 
 import './App.css';
 
@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <HomePage />
+        <Home />
       </div>
     );
   }
