@@ -9,6 +9,7 @@
   margin: 0 7.5px 15px;
   overflow: hidden;
 
+  // hover transition effect on the background image
   &:hover {
     cursor: pointer;
 
@@ -22,6 +23,7 @@
     }
   }
 
+  // The size variable on the last menu items styling to make it larger than the rest.
   &.large {
     height: 380px;
   }
@@ -34,6 +36,7 @@
     margin-left: 7.5px;
   }
 
+  // The background image style
   .background-image {
     width: 100%;
     height: 100%;
