@@ -1,0 +1,17 @@
+React Router.
+
+import { BrowserRouter } from 'react-router-dom';
+the wrap browser router around the App in index.js
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+
+
+  , document.getElementById('root'));
+
+Then go to the App.js to import Route from the react-router-dom.
+
+import { Route } from 'react-router-dom';
+
