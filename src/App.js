@@ -3,16 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import Home from './pages/home/Home';
+import Shop from './pages/shop/Shop';
 
-
-
-function HatsPage() {
-  return (
-    <div>
-      <h1>HATS PAGE</h1>
-    </div>
-  )
-}
 
 
 class App extends React.Component {
@@ -22,7 +14,7 @@ class App extends React.Component {
 
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/hats' component={HatsPage} />
+          <Route exact path='/shop' component={Shop} />
         </Switch>
       </div>
     );
